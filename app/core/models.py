@@ -23,7 +23,7 @@ class UserManager(BaseUserManager):
     user.save(using=self._db)
 
     return user
-# user model
+# user model333
 
 
 class User(AbstractBaseUser, PermissionsMixin):
